@@ -11,18 +11,18 @@ by Joni Korpi 		<http://jonikorpi.com/>
 licensed under CC0	<http://creativecommons.org/publicdomain/zero/1.0/>
 
 No styleguide reference.
-*/
+ */
 /*
 Font families
 
 No styleguide reference.
-*/
+ */
 /*
 Base font size should be larger than 16px.
 Calculation should be done via  http://j.mp/rNg5uA
 
 No styleguide reference.
-*/
+ */
 body {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
   font-size: 1em;
@@ -44,7 +44,7 @@ Using Golden ratio section (Caliculated via http://j.mp/sB6oxM):
 Vertical Rhythm is caluculated via http://j.mp/sUvKuN
 
 No styleguide reference.
-*/
+ */
 h1,
 h2,
 h3,
@@ -110,7 +110,7 @@ em {
 Color schemes
 
 No styleguide reference.
-*/
+ */
 /* solarized - http://j.mp/s9Xuw9
 
 @base03:    #002b36;
@@ -128,13 +128,13 @@ No styleguide reference.
 @violet:    #6c71c4;
 @blue:      #268bd2;
 @cyan:      #2aa198;
-@green:     #859900;
+@green:     #BADA55;
 
-*/
+ */
 /* Junction Font
  * http://www.theleagueofmoveabletype.com/
  * Using for Logo and headers
-*/
+ */
 @font-face {
   font-family: 'junctionregularRegular';
   src: url('/assets/themes/the-minimum/font/Junction-webfont.eot');
@@ -144,13 +144,13 @@ No styleguide reference.
 }
 /*
 LESS helper
-*/
+ */
 /*
 List modules
 .list-linear  - list line up horizontally
 
 No styleguide reference.
-*/
+ */
 .list-linear {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
@@ -160,24 +160,24 @@ No styleguide reference.
 }
 .list-linear li {
   display: inline-block;
-  *display: inline;
-  zoom: 1;
-  line-height: normal;
-  letter-spacing: normal;
-  margin-right: 16px;
-  word-spacing: normal;
-  vertical-align: middle;
-}
-.list-linear li:last-child {
-  margin-right: 0;
-}
-/* LESS VARIABLES
---------------------------------------------------------------------------------- */
+           *display: inline;
+           zoom: 1;
+           line-height: normal;
+           letter-spacing: normal;
+           margin-right: 16px;
+           word-spacing: normal;
+           vertical-align: middle;
+         }
+         .list-linear li:last-child {
+           margin-right: 0;
+         }
+         /* LESS VARIABLES
+         --------------------------------------------------------------------------------- */
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
-  background-color: #ffffff;
-  color: #2d2d2d;
+  background-color: #111111;
+  color: #778899;
 }
 /* LINK */
 a:link {
@@ -217,7 +217,7 @@ pre {
   margin: 0;
 }
 .the-header .logo a:visited {
-  color: #2d2d2d;
+  color: #BADA55;
 }
 .the-header .nav-global {
   text-transform: uppercase;
@@ -238,7 +238,7 @@ pre {
   padding-bottom: 1.625em;
 }
 .unit-article header h1 {
-  color: #2d2d2d;
+  color: #111111;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -247,7 +247,7 @@ pre {
 .unit-article .entry-content h4,
 .unit-article .entry-content h5,
 .unit-article .entry-content h6 {
-  color: #2d2d2d;
+  color: #BADA55;
 }
 .unit-article .entry-content h2 a:link,
 .unit-article .entry-content h3 a:link,
@@ -379,7 +379,7 @@ pre {
   background-color: #f99157;
 }
 .unit-article .list-category span, .unit-article .list-tag span {
-  background-color: #e25608;
+  background-color: #BADA55;
   padding: 1px 5px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -573,8 +573,8 @@ pre {
   margin-right: auto;
 }
 /*
- 	IE
-*/
+IE
+ */
 .ie .the-header .unit-inner {
   width: 60em;
   margin-top: 1.625em;
@@ -654,16 +654,16 @@ pre {
   margin-right: auto;
 }
 /*
-	Smartphone
-*/
+Smartphone
+ */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   img {
     max-width: 100%;
   }
 }
 /*
-	Wide Smartphone
-*/
+Wide Smartphone
+ */
 @media only screen and (min-width: 480px) {
   .the-header .unit-inner {
     width: 26.25em;
@@ -687,39 +687,39 @@ pre {
   }
   .the-header .nav-global li {
     display: inline-block;
-    *display: inline;
-    zoom: 1;
-    line-height: normal;
-    letter-spacing: normal;
-    margin-right: 16px;
-    word-spacing: normal;
-    vertical-align: middle;
-  }
-  .the-header .nav-global li:last-child {
-    margin-right: 0;
-  }
-  .unit-article .unit-head-inner,
-  .unit-article .entry-content,
-  .unit-article .misc-content,
-  .unit-article .unit-foot-inner {
-    width: 26.25em;
-  }
-  .unit-article .unit-foot .gotop {
-    margin-top: 1.625em;
-  }
-  .layout-page .unit-body .unit-body-inner {
-    width: 26.25em;
-  }
-  .layout-page .unit-body .article-list {
-    width: 26.25em;
-  }
-  .the-footer .unit-foot {
-    width: 26.25em;
-  }
-}
-/*
-	Tablet
-*/
+             *display: inline;
+             zoom: 1;
+             line-height: normal;
+             letter-spacing: normal;
+             margin-right: 16px;
+             word-spacing: normal;
+             vertical-align: middle;
+           }
+           .the-header .nav-global li:last-child {
+             margin-right: 0;
+           }
+           .unit-article .unit-head-inner,
+           .unit-article .entry-content,
+           .unit-article .misc-content,
+           .unit-article .unit-foot-inner {
+             width: 26.25em;
+           }
+           .unit-article .unit-foot .gotop {
+             margin-top: 1.625em;
+           }
+           .layout-page .unit-body .unit-body-inner {
+             width: 26.25em;
+           }
+           .layout-page .unit-body .article-list {
+             width: 26.25em;
+           }
+           .the-footer .unit-foot {
+             width: 26.25em;
+           }
+         }
+         /*
+         Tablet
+          */
 @media only screen and (min-width: 768px) {
   .the-header .unit-inner {
     width: 43.125em;
@@ -753,8 +753,8 @@ pre {
   }
 }
 /*
-	Not that old computer layout 
-*/
+Not that old computer layout
+ */
 @media only screen and (min-width: 1280px) {
   .the-header .unit-inner {
     width: 60em;
@@ -799,8 +799,8 @@ pre {
   }
 }
 /*
-	Huge-screen layout 
-*/
+Huge-screen layout
+ */
 @media only screen and (min-width: 1410px) {
   .the-header .unit-inner {
     width: 88.125em;

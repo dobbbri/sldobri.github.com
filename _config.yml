@@ -8,12 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Webdevelopment and Code
+title : C-O-D-E-R
 tagline: Site Tagline
 author :
   name : Sergio Luiz Dobri
   email : sergio.dobri@gmail.com
-  github : sldobri
+  github : github.com/sldobri
   twitter : sldobri
 
 # The production_url is only used when full-domain names are needed
@@ -90,7 +90,7 @@ JB :
       appid : 123
       num_posts: 5
       width: 580
-      colorscheme: dark
+      colorscheme: light
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
